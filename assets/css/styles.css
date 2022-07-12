@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
-body{
-  
+body {
   color: #000000;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
 h2 {
   font-size: 1.5rem;
 }
@@ -66,26 +68,26 @@ section#projetos {
   margin-bottom: 2rem;
 }
 
-section#projetos h2#projetosTitulo {
-  padding: 10px;
-}
-
 section#projetos section#cardsProjetos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-section#projetos section#cardsProjetos div.cardProjetos {
-  padding: 3rem;
-  margin: 2rem;
-  background-color: aqua;
+section#projetos section#cardsProjetos a div.cardProjetos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+section#projetos section#cardsProjetos a div.cardProjetos img.projetoLogo {
+  width: 10vw;
 }
 
 section#skills {
   display: flex;
   flex-direction: column;
-
   margin-bottom: 2rem;
 }
 
@@ -127,13 +129,30 @@ section#contato {
 
 section#contato section#cardsContato {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
-section#contato section#cardsContato .secContato {
-  padding: 3rem;
+section#contato section#cardsContato a.linkContato .secContato {
   margin: 2rem;
-  background-color: aqua;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+section#contato section#cardsContato a.linkContato .secContato div.cardContato {
+  background-color: antiquewhite;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+section#contato
+  section#cardsContato
+  a.linkContato
+  .secContato
+  div.cardContato
+  img.logosContato {
+  width: 3vw;
 }
 
 footer {
