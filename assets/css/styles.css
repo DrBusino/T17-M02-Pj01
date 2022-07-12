@@ -1,4 +1,142 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  
+  color: #000000;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+div.separador {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 5px;
+}
+
+section#tela {
+  margin: 5rem 12rem 2rem 12rem;
+}
+article#titulo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+article#titulo h1#nome {
+  padding: 2px;
+  font-size: 2.5rem;
+}
+article#titulo h2#descNome {
+  padding: 2px;
+}
+
+article#sobre {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+
+article#sobre h2#sobreTitulo {
+  padding: 10px;
+}
+
+section#projetos {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2rem;
+}
+
+section#projetos h2#projetosTitulo {
+  padding: 10px;
+}
+
+section#projetos section#cardsProjetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section#projetos section#cardsProjetos div.cardProjetos {
+  padding: 3rem;
+  margin: 2rem;
+  background-color: aqua;
+}
+
+section#skills {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2rem;
+}
+
+section#skills section#cardsSkills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#skills section#cardsSkills div.cardSkills {
+  padding: 3rem;
+  margin: 2rem;
+  background-color: aqua;
+}
+
+section#servicos {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2rem;
+}
+
+section#servicos section#cardsServicos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#servicos section#cardsServicos div.cardServicos {
+  padding: 3rem;
+  margin: 2rem;
+  background-color: aqua;
+}
+
+section#contato {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2rem;
+}
+
+section#contato section#cardsContato {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#contato section#cardsContato .secContato {
+  padding: 3rem;
+  margin: 2rem;
+  background-color: aqua;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }

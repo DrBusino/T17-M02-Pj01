@@ -9,33 +9,39 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
 
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
     <title>Portifólio</title>
   </head>
+
   <body>
-    <ul>
-      <li><a href="/">Top</a></li>
+    
+      <ul>
+        <li><a href="/">Top</a></li>
 
-      <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#sobre">Sobre</a></li>
 
-      <li><a href="#projetos">Projetos</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#contato">Contato</a></li>
-      <li>
-        <a href=""><span class="material-symbols-outlined"> language </span></a>
-      </li>
-    </ul>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li>
+          <a href=""
+            ><span class="material-symbols-outlined"> language </span></a
+          >
+        </li>
+      </ul>
+   
 
     <section id="tela">
       <article id="titulo">
         <h1 id="nome">Pedro Casanova</h1>
         <h2 id="descNome">Desenvolvedor Front-end & UI Designer</h2>
       </article>
-
+      
       <article id="sobre">
         <h2 id="sobreTitulo">Sobre mim:</h2>
+
         <p id="sobreCorpo">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
           doloribus officiis voluptatum, ratione beatae repudiandae dolores in
@@ -45,84 +51,113 @@
           accusantium. Ullam expedita provident animi.
         </p>
       </article>
-
+      <div class="separador"></div>
       <section id="projetos">
         <h2 id="projetosTitulo">Projetos:</h2>
-        <div class="cardProjetos" id="proj-1"></div>
+        <section id="cardsProjetos">
+          <a
+            target="_blank"
+            href="https://github.com/DrBusino/Modulo02-Projeto02"
+            ><div class="cardProjetos" id="proj-1">Proj2Mod2T16</div></a
+          >
 
-        <div class="cardProjetos" id="proj-2"></div>
-
-        <div class="cardProjetos" id="proj-3"></div>
-
-        <div class="cardProjetos" id="proj-4"></div>
-
-        <div class="cardProjetos" id="proj-5"></div>
-
-        <div class="cardProjetos" id="proj-6"></div>
+          <a
+            target="_blank"
+            href="https://github.com/DrBusino/Projeto01-Jogo-do-Humor"
+            ><div class="cardProjetos" id="proj-2">Jogo do humor</div></a
+          >
+          <a
+            target="_blank"
+            href="https://github.com/DrBusino/BlueEdTech/tree/master/Projeto01"
+            ><div class="cardProjetos" id="proj-3">proj1Mod2T16</div></a
+          >
+          <a
+            target="_blank"
+            href="https://github.com/DrBusino/BlueEdTech/tree/master/Projeto02"
+            ><div class="cardProjetos" id="proj-4">proj2Mod1</div></a
+          >
+          <a
+            target="_blank"
+            href="https://github.com/DrBusino/BlueEdTech/tree/master/Projeto03"
+            ><div class="cardProjetos" id="proj-5">proj3Mod1</div></a
+          >
+          <a target="_blank" href="https://github.com/DrBusino/carnavalizando"
+            ><div class="cardProjetos" id="proj-6">Carnavalizando</div></a
+          >
+        </section>
       </section>
-
+      <div class="separador"></div>
       <section id="skills">
         <h2 id="skillsTitulo">Skills:</h2>
-        <div class="cardSkills" id="skill-1">
-          <p class="descCardSkills">HTML</p>
-        </div>
 
-        <div class="cardSkills" id="skill-2">
-          <p class="descCardSkills">CSS</p>
-        </div>
+        <section id="cardsSkills">
+          <div class="cardSkills" id="skill-1">
+            <p class="descCardSkills">HTML</p>
+          </div>
 
-        <div class="cardSkills" id="skill-3">
-          <p class="descCardSkills">.ejs</p>
-        </div>
+          <div class="cardSkills" id="skill-2">
+            <p class="descCardSkills">CSS</p>
+          </div>
 
-        <div class="cardSkills" id="skill-4">
-          <p class="descCardSkills">Express</p>
-        </div>
+          <div class="cardSkills" id="skill-3">
+            <p class="descCardSkills">.ejs</p>
+          </div>
 
-        <div class="cardSkills" id="skill-5">
-          <p class="descCardSkills">JavaScript</p>
-        </div>
+          <div class="cardSkills" id="skill-4">
+            <p class="descCardSkills">Express</p>
+          </div>
 
-        <div class="cardSkills" id="skill-6">
-          <p class="descCardSkills">NODE.js</p>
-        </div>
+          <div class="cardSkills" id="skill-5">
+            <p class="descCardSkills">JavaScript</p>
+          </div>
+
+          <div class="cardSkills" id="skill-6">
+            <p class="descCardSkills">NODE.js</p>
+          </div>
+        </section>
       </section>
-
+      <div class="separador"></div>
       <section id="servicos">
         <h2 id="servicosTitulo">Serviços:</h2>
-        <div class="cardServicos" id="servico-1">
-          <p class="descCardServicos">Criação de Sites</p>
-        </div>
-        <div class="cardServicos" id="servico-2">
-          <p class="descCardServicos">UI Designer</p>
-        </div>
-        <div class="cardServicos" id="servico-3">
-          <p class="descCardServicos">Sites Responsivos</p>
-        </div>
+        <section id="cardsServicos">
+          <div class="cardServicos" id="servico-1">
+            <p class="descCardServicos">Criação de Sites</p>
+          </div>
+          <div class="cardServicos" id="servico-2">
+            <p class="descCardServicos">UI Designer</p>
+          </div>
+          <div class="cardServicos" id="servico-3">
+            <p class="descCardServicos">Sites Responsivos</p>
+          </div>
+        </section>
       </section>
-
+      <div class="separador"></div>
       <section id="contato">
         <h2 id="contatoTitulo">Contato:</h2>
-        <section class="secContato">
-          <div class="cardContato" id="contato-1"></div>
-          <p class="descContato">E-mail</p>
-        </section>
 
-        <section class="secContato">
-          <div class="cardContato" id="contato-2"></div>
-          <p class="descContato">Linkedin</p>
-        </section>
+        <section id="cardsContato">
+          <section class="secContato">
+            <div class="cardContato" id="contato-1"></div>
+            <p class="descContato">E-mail</p>
+          </section>
 
-        <section class="secContato">
-          <div class="cardContato" id="contato-3"></div>
-          <p class="descContato">GitHub</p>
-        </section>
+          <section class="secContato">
+            <div class="cardContato" id="contato-2"></div>
+            <p class="descContato">Linkedin</p>
+          </section>
 
-        <div class="secContato" id="downloadCV">
-          <p id="cv">Download CV</p>
-        </div>
+          <section class="secContato">
+            <div class="cardContato" id="contato-3"></div>
+            <p class="descContato">GitHub</p>
+          </section>
+
+          <div class="secContato" id="downloadCV">
+            <p id="cv">Download CV</p>
+          </div>
+        </section>
       </section>
     </section>
+    <div class="separador"></div>
     <footer>
       <p>Site desenvolvido e projetado por Pedro Casanova</p>
     </footer>
