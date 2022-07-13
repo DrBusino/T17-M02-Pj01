@@ -46,6 +46,9 @@ ul {
 
 section#tela {
   margin: 5% 15% 0 15%;
+  display: flex;
+  flex-direction: column;
+
 }
 article#titulo {
   display: flex;
@@ -176,6 +179,7 @@ section#contato {
 section#contato section#cardsContato {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
@@ -215,3 +219,95 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 912px) {
+
+  section#tela{
+    margin: 5% 12% 0 12%;
+    text-align: center;
+  }
+  article#titulo{
+    align-self: center;
+  }
+  section#projetos section#cardsProjetos a div.cardProjetos img.projetoLogo{
+    width: 20vw;
+  }
+  
+}
+
+@media screen and (max-width: 540px){
+
+section#tela{
+    margin: 5% 10% 0 10%;
+    
+  }
+
+
+    section#projetos section#cardsProjetos a div.cardProjetos img.projetoLogo{
+    width: 50vw;
+  }
+ 
+  
+}
+
+@media screen and (max-width: 412px){
+ 
+
+  section#tela{
+    margin: 3% 2% 0 2%;
+    
+  }
+  ul{
+   
+    position: fixed;
+    right: 0;
+    width: 100vw;
+    
+     background: linear-gradient(
+    200.28deg,
+    rgba(0, 9, 9, 0.766657) 2.1%,
+    rgba(1, 43, 45, 0.722529) 19.27%,
+    rgba(1, 68, 72, 0.69) 40.85%,
+    rgba(9, 168, 131, 0.85) 99.7%
+  );
+  }
+}
+
+
+@media screen and(max-width: 390px) {
+  ul{
+    margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 360px){
+
+  body{
+    width: 100vw;
+  
+  }
+ul{
+  gap: .5rem;
+}
+  
+   section#tela{
+    margin: 1% 2% 0 2%;
+    
+  }
+
+}
+
+@media screen and (max-width: 280px){
+  article#sobre{
+    padding: 1rem;
+  }
+
+  ul{
+    font-size: small;
+  }
+}
+
+
+
