@@ -76,6 +76,11 @@ article#sobre h2#sobreTitulo {
   padding: 10px;
 }
 
+a#blueLink{
+  color: blue;
+  font-weight: 800;
+}
+
 section#projetos {
   display: flex;
   flex-direction: column;
@@ -216,6 +221,7 @@ section#contato
 }
 
 footer {
+  margin-top: 3px;
   display: flex;
   justify-content: center;
 }
